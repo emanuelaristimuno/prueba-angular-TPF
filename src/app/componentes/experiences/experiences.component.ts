@@ -19,7 +19,12 @@ export class ExperiencesComponent implements OnInit {
   }
 
   getAll(){
-    this.experiences= this.experienceService.getAllExperiencias()
+    this.experienceService.getAllExperiencias().subscribe(data=>{
+      console.log('data', data);
+//      luego asignamos a expeciencies para mostrar
+      this.experiences= data.experiencias;
+      console.log('this.experiences',data.experiencias)
+    })
   }
 
   borrarExperienceDeLista(experienceParaBorrar: Experience) {
