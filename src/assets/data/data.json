@@ -1,0 +1,29 @@
+{
+  "experiencias":[
+        {
+          "codigo": 1,
+          "descripcion":"Futbolista",
+          "observacion": "C.A. Patronato",
+          "mesesTrabajados":24,
+          "company":{"name":"cap", "img":"url_de_la_imagen", "url":"ur_de_la_compania"}
+      },
+        {
+          "codigo": 2,
+          "descripcion":"Developer",
+          "observacion": "Securita",
+          "mesesTrabajados":18,
+          "company":{"name":"securita", "img":"url_de_la_imagen", "url":"ur_de_la_compania"}
+        },
+        {
+          "codigo": 3,
+          "descripcion":"Docente",
+          "observacion": "Argentina Programa 2022",
+          "mesesTrabajados":12,
+          "company":{"name":"inti", "img":"url_de_la_imagen", "url":"ur_de_la_compania"}
+       }
+    ],
+
+  "estudios":[{},{},{}]
+
+
+}

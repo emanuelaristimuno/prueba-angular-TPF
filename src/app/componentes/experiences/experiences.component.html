@@ -1,0 +1,8 @@
+<div class="experiences">
+  <h3> Esta es mi experiencias!</h3>
+  <div *ngFor="let experiencia of experiences">
+    <app-experience [experience]="experiencia"
+    (deleteExperience)="borrarExperienceDeLista($event)"
+    ></app-experience>
+  </div>
+</div>

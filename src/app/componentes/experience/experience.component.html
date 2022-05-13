@@ -1,0 +1,12 @@
+<div class="experience">
+  <h4>Experiencia: {{experience.codigo}}</h4>
+    <p>Descripción: {{experience.descripcion}}</p>
+    <p>Observación: {{experience.observacion}}</p>
+    <p>Antiguedad (meses): {{experience.mesesTrabajados}}
+     &nbsp; <button class="btn btn-primary mb-3" (click)="aumentarAntiguedad(experience)" >Cumplir Años</button>
+    </p>
+    Editar la Descripcion: <input type="text" [(ngModel)]="experience.descripcion">
+    Editar la Observacion:  <input type="text" [(ngModel)]="experience.observacion">
+    <button class="btn btn-danger mb-3" (click)="borrarExperiencia(experience)" >Eliminar!</button>
+
+  </div>
