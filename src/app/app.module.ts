@@ -10,6 +10,8 @@ import { ExperienceComponent } from './componentes/experience/experience.compone
 import { ExperiencesComponent } from './componentes/experiences/experiences.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { EducacionsComponent } from './componentes/educacions/educacions.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     AcercadeComponent,
     ExperienceComponent,
     ExperiencesComponent,
+    EducacionComponent,
+    EducacionsComponent,
   ],
   imports: [
     BrowserModule,
